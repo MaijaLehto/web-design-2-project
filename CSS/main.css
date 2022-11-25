@@ -44,6 +44,10 @@ nav ol li a {
   font-size: 35px;
 }
 
+nav ol li a:hover {
+  text-decoration: underline;
+}
+
 nav img {
   border-style: none;
 }
@@ -75,11 +79,6 @@ h1 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   margin-bottom: 3rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  background-color: #4C5726;
 }
 
 .about a {
@@ -90,6 +89,11 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: #4C5726;
 }
 
 .works-grid {
@@ -97,7 +101,7 @@ h1 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  max-width: 50%;
+  max-width: 75%;
   margin: 0 auto;
 }
 
@@ -108,6 +112,7 @@ h1 {
   border-style: solid;
   border-width: 1em;
   border-color: #C27F2E;
+  margin-bottom: 2rem;
 }
 
 img {
@@ -117,14 +122,70 @@ img {
 }
 
 .content img {
-  max-width: 85%;
+  max-width: 100%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-content: center;
+  max-width: 85%;
+  margin: 0 auto;
 }
+
+h2 {
+  background-color: #4C5726;
+  color: #FFFFFF;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: right;
+}
+
+.print {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.print img {
+  border-width: 1em;
+  width: 100%;
+  margin: 1em auto;
+}
+
+.digital {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.digital img {
+  border-width: 1em;
+  width: 100%;
+  margin: 1em auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.logo img {
+  border-width: 1em;
+  width: 100%;
+  margin: 1em auto;
+}
+
 
 footer {
   padding: 2.5rem;
@@ -147,7 +208,21 @@ footer a {
   text-align: center;
 }
 
-footer img {
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin; 0 auto;
+  width: 25%;
+}
+
+.socials img {
+  background-color: #FFFFFF;
+  margin: 0.5em;
+  padding: 0.5em;
   border-style: none;
-  max-width: 15%;
+  max-width: 100%;
+}
+
+.top:hover {
+  text-decoration: underline;
 }
