@@ -96,6 +96,10 @@ h1 {
   background-color: #4C5726;
 }
 
+.about a:hover {
+  background-color: #C27F2E;
+}
+
 .works-grid {
   display: flex;
   flex-direction: column;
@@ -113,6 +117,10 @@ h1 {
   border-width: 1em;
   border-color: #C27F2E;
   margin-bottom: 2rem;
+}
+
+.works-grid img:hover {
+  border-color: #4C5726;
 }
 
 img {
@@ -248,4 +256,15 @@ footer a {
 
 .top a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 48em) {
+
+}
+
+@media only screen and (min-width: 80em) {
+
+  .wrapper {
+    max-width: 1134px;
+  }
 }
