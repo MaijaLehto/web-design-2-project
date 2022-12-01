@@ -194,7 +194,6 @@ footer {
   color: #FFFFFF;
   background-color: #4C5726;
   text-align: center;
-  border-radius: 8px;
 
 }
 
@@ -207,21 +206,31 @@ footer a {
   text-decoration: none;
   color: #FFFFFF;
   text-align: center;
+  margin: 8px;
+  align-items: center;
 }
 
 .socials {
   display: flex;
   justify-content: space-between;
   margin; 0 auto;
-  width: 25%;
+  width: 35%;
+
 }
 
 .socials img {
   background-color: #FFFFFF;
-  margin: 0.5em;
+  display: flex;
+  justify-content: space-between;
   padding: 0.5em;
   border-style: none;
   max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.top {
+  margin: 0 auto;
 }
 
 .top:hover {
