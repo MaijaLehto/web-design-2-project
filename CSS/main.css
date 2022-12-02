@@ -336,6 +336,11 @@ footer a {
     width: 6rem;
   }
 
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+  }
+
   .top {
     padding-bottom: 0.5rem;
   }
