@@ -1,5 +1,5 @@
 html {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -10,6 +10,7 @@ body {
     font-family: "Rajdhani", sans-serif;
     font-size: 25px;
     background-color: #FFFFFF;
+    margin: 0;
 }
 
 nav {
@@ -31,6 +32,7 @@ nav ol {
   flex-direction: column;
   right: 0;
   align-content: flex-end;
+  align-items: center;
 }
 
 nav ol li {
@@ -231,7 +233,10 @@ footer a {
     flex-direction: row;
   }
 
-  nav img {height: 53px;}
+  nav img {
+    height: 53px;
+    margin-left: 1em;
+  }
 
   h1 {font-size: 115px;}
 
