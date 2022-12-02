@@ -14,32 +14,38 @@
     <nav role="navigation" id="nav">
       <img src="images/lehto-graphics-logo.svg" alt="Lehto Graphics Logo">
       <ol>
-        <li><a href="index.html" alt="Home">Home</a></li>
-        <li><a href="html/about.html" alt="About Me">About Me</a></li>
-        <li><a href="html/works.html" alt="My Work">My Work</a></li>
+        <li><a href="index.html" aria-label="Home" alt="Home">Home</a></li>
+        <li><a href="html/about.html" aria-label="About Me" alt="About Me">About Me</a></li>
+        <li><a href="html/works.html" aria-label="My Work" alt="My Work">My Work</a></li>
       </ol>
     </nav>
     <header role="banner" class="hero-banner">
         <h1>Lehto Graphics</h1>
     </header>
 
-    <section class="about">
-      <a class="btn" href="html/about.html">Hi! I'm a designer and artist, originally from Northern Ontario!</a>
-    </section>
+    <section class="wrapper">
+      <section class="about">
+        <a aria-label="About Me" href="html/about.html">Hi! I'm a designer and artist, originally from Northern Ontario!</a>
+      </section>
 
-    <section class="works-grid">
-      <a class="btn" href="html/works.html"><img src="images/ogopogo.jpg" alt="ogopogo"></a>
-      <a class="btn" href="html/works.html"><img src="images/sunni.jpg" alt="sunni"></a>
-      <a class="btn" href="html/works.html"><img src="images/gd-logo.jpg" alt="gd-logo"></a>
+      <section class="works-grid">
+        <a aria-label="My Work" href="html/works.html"><img src="images/ogopogo.jpg" alt="ogopogo"></a>
+        <a aria-label="My Work" href="html/works.html"><img src="images/sunni.jpg" alt="sunni"></a>
+        <a aria-label="My Work" href="html/works.html"><img src="images/gd-logo.jpg" alt="gd-logo"></a>
+      </section>
     </section>
 
     <footer role="contentinfo">
-      <p class="in-touch">Want to get in touch?</p>
-      <section class="socials">
-        <a class="twitter" href="https://twitter.com/sunnihelianthus" alt="twitter link"><img src="images/twitter.png" alt="twitter logo"></a>
-        <a class="linkedin" href="https://www.linkedin.com/in/m-lehto-63719a251/" alt="linkedin link"><img src="images/linkedin.png" alt="linkedin logo"></a>
+      <section class="contact">
+        <p class="in-touch">Want to get in touch?</p>
+        <section class="contact-info">
+          <section class="socials">
+            <a class="icon" href="https://twitter.com/sunnihelianthus" alt="twitter link"><img src="images/twitter.png" alt="twitter logo"></a>
+            <a class="icon" href="https://www.linkedin.com/in/m-lehto-63719a251/" alt="linkedin link"><img src="images/linkedin.png" alt="linkedin logo"></a>
+          </section>
+          <p class="email">mlehto19@gmail.com</p>
+        </section>
       </section>
-      <p>mlehto19@gmail.com</p>
       <div class="top">
         <a href="#nav">return to top</a>
       </div>
