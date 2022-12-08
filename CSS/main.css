@@ -246,7 +246,7 @@ footer a {
   }
 
   h2 {
-    max-width:95%;
+    max-width:85%;
     font-size:
   }
 
@@ -307,10 +307,6 @@ footer a {
 @media only screen and (min-width: 1280px) {
 
   h1 {font-size: 150px;}
-
-  h2 {
-    max-width:85%;
-  }
 
   body {
     font-size: 35px;
